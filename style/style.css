@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 3% 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.wrapper_weather {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.wrapper_weather span {
+  font-size: 1.5rem;
+}
+
+.indent {
+  margin: 5% 0;
+}
+
+.indent p {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.js-clock {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 6rem;
+  color: white;
+}
+
+.form, .greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.js-toDoList {
+  text-align: left;
+  font-family: "Roboto";
+  color: white;
+}
+
+.js-toDoList button {
+  opacity: 0.4;
+}
+
+.js-toDoList span {
+  font-size: 1.5rem;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -webkit-animation: fadein 1s linear;
+          animation: fadein 1s linear;
+}
+/*# sourceMappingURL=style.css.map */
